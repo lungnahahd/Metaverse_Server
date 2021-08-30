@@ -14,3 +14,6 @@ public class ServiceController {
         this.service = service;
     }
 }
+
+// 과정
+// Controller -> Service -> Repository 연결되어서 서버 동작

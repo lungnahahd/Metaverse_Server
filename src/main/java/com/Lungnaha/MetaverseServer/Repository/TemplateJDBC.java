@@ -12,7 +12,8 @@ import java.util.List;
 import java.util.Optional;
 
 // DB 저장을 위해서  JDBC 템플릿을 활용
-// DB 저장소를 구현하기 위해서 인터페이스를 활용
+// DB 저장소를 구현하기 위해서 인터페이스를 활용\
+
 public class TemplateJDBC implements DBInterface {
     private final JdbcTemplate jdbcTemplate;
     
