@@ -19,6 +19,7 @@ public class TemplateJDBC implements DBInterface {
     
     public TemplateJDBC(DataSource dataSource) {
         // jdbc 템플릿 생성자 처리 -> DataSource를 통해서 DB 연결
+        // 그냥 Datasource가 필요하다는 것 암기하고 진행하기
         jdbcTemplate = new JdbcTemplate(dataSource);
     }
 
