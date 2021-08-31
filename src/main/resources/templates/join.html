@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+</head>
+<body>
+<form action="/join" method="post">
+    <div class="form-group">
+        <label for="id">아이디</label>
+        <input type="text" id="id" name="id" placeholder="아이디를 입력해주세요">
+        <label for="password">특이사항</label>
+        <input type="text" id="password" name="password" placeholder="운동 후 특이사항을 적어주세요">
+    </div>
+    <button type="submit">가입하기</button>
+</form>
+</body>
+</html>
