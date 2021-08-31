@@ -9,16 +9,14 @@
     <table>
         <thead>
         <tr>
-            <th>#</th>
-            <th>요일</th>
-            <th>특이사항</th>
+            <th>아이디</th>
+            <th>비밀번호</th>
         </tr>
         </thead>
         <tbody>
         <tr th:each="data : ${data}">
             <td th:text="${data.id}"></td>
-            <td th:text="${data.name}"></td>
-            <td th:text="${data.character}"></td>
+            <td th:text="${data.password}"></td>
         </tr>
         </tbody>
     </table>
